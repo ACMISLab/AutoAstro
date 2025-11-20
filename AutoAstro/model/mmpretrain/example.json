@@ -1,0 +1,456 @@
+{
+  "vgg": [
+    {
+      "Model": "vgg11_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 132.86,
+      "Flops_G": 7.63,
+      "Top1_Percent": 68.75,
+      "Top5_Percent": 88.87,
+      "Config": "vgg11_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vgg/vgg11_batch256_imagenet_20210208-4271cd6c.pth"
+    },
+    {
+      "Model": "vgg13_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 133.05,
+      "Flops_G": 11.34,
+      "Top1_Percent": 70.02,
+      "Top5_Percent": 89.46,
+      "Config": "vgg13_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vgg/vgg13_batch256_imagenet_20210208-4d1d6080.pth"
+    },
+    {
+      "Model": "vgg16_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 138.36,
+      "Flops_G": 15.5,
+      "Top1_Percent": 71.62,
+      "Top5_Percent": 90.49,
+      "Config": "vgg16_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vgg/vgg16_batch256_imagenet_20210208-db26f1a5.pth"
+    },
+    {
+      "Model": "vgg19_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 143.67,
+      "Flops_G": 19.67,
+      "Top1_Percent": 72.41,
+      "Top5_Percent": 90.8,
+      "Config": "vgg19_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vgg/vgg19_batch256_imagenet_20210208-e6920e4a.pth"
+    },
+    {
+      "Model": "vgg11bn_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 132.87,
+      "Flops_G": 7.64,
+      "Top1_Percent": 70.67,
+      "Top5_Percent": 90.16,
+      "Config": "vgg11bn_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vgg/vgg11_bn_batch256_imagenet_20210207-f244902c.pth"
+    },
+    {
+      "Model": "vgg13bn_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 133.05,
+      "Flops_G": 11.36,
+      "Top1_Percent": 72.12,
+      "Top5_Percent": 90.66,
+      "Config": "vgg13bn_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vgg/vgg13_bn_batch256_imagenet_20210207-1a8b7864.pth"
+    },
+    {
+      "Model": "vgg16bn_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 138.37,
+      "Flops_G": 15.53,
+      "Top1_Percent": 73.74,
+      "Top5_Percent": 91.66,
+      "Config": "vgg16bn_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vgg/vgg16_bn_batch256_imagenet_20210208-7e55cd29.pth"
+    },
+    {
+      "Model": "vgg19bn_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 143.68,
+      "Flops_G": 19.7,
+      "Top1_Percent": 74.68,
+      "Top5_Percent": 92.27,
+      "Config": "vgg19bn_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vgg/vgg19_bn_batch256_imagenet_20210208-da620c4f.pth"
+    }
+  ],
+  "resnet": [
+    {
+      "Model": "resnet18_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 11.69,
+      "Flops_G": 1.82,
+      "Top1_Percent": 69.9,
+      "Top5_Percent": 89.43,
+      "Config": "resnet18_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/resnet/resnet18_8xb32_in1k_20210831-fbbb1da6.pth"
+    },
+    {
+      "Model": "resnet34_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 2.18,
+      "Flops_G": 3.68,
+      "Top1_Percent": 73.62,
+      "Top5_Percent": 91.59,
+      "Config": "resnet34_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/resnet/resnet34_8xb32_in1k_20210831-f257d4e6.pth"
+    },
+    {
+      "Model": "resnet50_8xb32_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 25.56,
+      "Flops_G": 4.12,
+      "Top1_Percent": 76.55,
+      "Top5_Percent": 93.06,
+      "Config": "resnet50_8xb32_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/resnet/resnet50_8xb32_in1k_20210831-ea4938fc.pth"
+    }
+  ],
+  "mobilenet_v3": [
+    {
+      "Model": "mobilenet-v3-small_8xb128_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 2.54,
+      "Flops_G": 0.06,
+      "Top1_Percent": 66.68,
+      "Top5_Percent": 86.74,
+      "Config": "mobilenet-v3-small_8xb128_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/mobilenet_v3/mobilenet-v3-small_8xb128_in1k_20221114-bd1bfcde.pth"
+    },
+    {
+      "Model": "mobilenet-v3-large_8xb128_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 5.48,
+      "Flops_G": 0.23,
+      "Top1_Percent": 73.49,
+      "Top5_Percent": 91.31,
+      "Config": "mobilenet-v3-large_8xb128_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/mobilenet_v3/mobilenet-v3-large_8xb128_in1k_20221114-0ed9ed9a.pth"
+    }
+  ],
+  "swin_transformer_v2": [
+    {
+      "Model": "swinv2-tiny-w8_3rdparty_in1k-256px",
+      "Pretrain": "From scratch",
+      "Params_M": 28.35,
+      "Flops_G": 4.35,
+      "Top1_Percent": 81.76,
+      "Top5_Percent": 95.87,
+      "Config": "swinv2-tiny-w8_16xb64_in1k-256px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-tiny-w8_3rdparty_in1k-256px_20220803-e318968f.pth"
+    },
+    {
+      "Model": "swinv2-tiny-w16_3rdparty_in1k-256px",
+      "Pretrain": "From scratch",
+      "Params_M": 28.35,
+      "Flops_G": 4.4,
+      "Top1_Percent": 82.81,
+      "Top5_Percent": 96.23,
+      "Config": "swinv2-tiny-w16_16xb64_in1k-256px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-tiny-w16_3rdparty_in1k-256px_20220803-9651cdd7.pth"
+    },
+    {
+      "Model": "swinv2-small-w8_3rdparty_in1k-256px",
+      "Pretrain": "From scratch",
+      "Params_M": 49.73,
+      "Flops_G": 8.45,
+      "Top1_Percent": 83.74,
+      "Top5_Percent": 96.6,
+      "Config": "swinv2-small-w8_16xb64_in1k-256px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-small-w8_3rdparty_in1k-256px_20220803-b01a4332.pth"
+    },
+    {
+      "Model": "swinv2-small-w16_3rdparty_in1k-256px",
+      "Pretrain": "From scratch",
+      "Params_M": 49.73,
+      "Flops_G": 8.57,
+      "Top1_Percent": 84.13,
+      "Top5_Percent": 96.83,
+      "Config": "swinv2-small-w16_16xb64_in1k-256px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-small-w16_3rdparty_in1k-256px_20220803-b707d206.pth"
+    },
+    {
+      "Model": "swinv2-base-w8_3rdparty_in1k-256px",
+      "Pretrain": "From scratch",
+      "Params_M": 87.92,
+      "Flops_G": 14.99,
+      "Top1_Percent": 84.2,
+      "Top5_Percent": 96.86,
+      "Config": "swinv2-base-w8_16xb64_in1k-256px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-base-w8_3rdparty_in1k-256px_20220803-8ff28f2b.pth"
+    },
+    {
+      "Model": "swinv2-base-w16_3rdparty_in1k-256px",
+      "Pretrain": "From scratch",
+      "Params_M": 87.92,
+      "Flops_G": 15.14,
+      "Top1_Percent": 84.6,
+      "Top5_Percent": 97.05,
+      "Config": "swinv2-base-w16_16xb64_in1k-256px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-base-w16_3rdparty_in1k-256px_20220803-5a1886b7.pth"
+    },
+    {
+      "Model": "swinv2-base-w16_in21k-pre_3rdparty_in1k-256px",
+      "Pretrain": "ImageNet-21k",
+      "Params_M": 87.92,
+      "Flops_G": 15.14,
+      "Top1_Percent": 86.17,
+      "Top5_Percent": 97.88,
+      "Config": "swinv2-base-w16_in21k-pre_16xb64_in1k-256px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-base-w16_in21k-pre_3rdparty_in1k-256px_20220803-8d7aa8ad.pth"
+    },
+    {
+      "Model": "swinv2-base-w24_in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "ImageNet-21k",
+      "Params_M": 87.92,
+      "Flops_G": 34.07,
+      "Top1_Percent": 87.14,
+      "Top5_Percent": 98.23,
+      "Config": "swinv2-base-w24_in21k-pre_16xb64_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-base-w24_in21k-pre_3rdparty_in1k-384px_20220803-44eb70f8.pth"
+    },
+    {
+      "Model": "swinv2-large-w16_in21k-pre_3rdparty_in1k-256px",
+      "Pretrain": "ImageNet-21k",
+      "Params_M": 196.75,
+      "Flops_G": 33.86,
+      "Top1_Percent": 86.93,
+      "Top5_Percent": 98.06,
+      "Config": "swinv2-large-w16_in21k-pre_16xb64_in1k-256px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-large-w16_in21k-pre_3rdparty_in1k-256px_20220803-c40cbed7.pth"
+    },
+    {
+      "Model": "swinv2-large-w24_in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "ImageNet-21k",
+      "Params_M": 196.75,
+      "Flops_G": 76.2,
+      "Top1_Percent": 87.59,
+      "Top5_Percent": 98.27,
+      "Config": "swinv2-large-w24_in21k-pre_16xb64_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-v2/swinv2-large-w24_in21k-pre_3rdparty_in1k-384px_20220803-3b36c165.pth"
+    }
+  ],
+  "convnext_v2": [
+    {
+      "Model": "convnext-v2-nano_fcmae-in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "FCMAE ImageNet-21k",
+      "Params_M": 15.62,
+      "Flops_G": 7.21,
+      "Top1_Percent": 83.36,
+      "Top5_Percent": 96.75,
+      "Config": "convnext-v2-nano_32xb32_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/convnext-v2/convnext-v2-nano_fcmae-in21k-pre_3rdparty_in1k-384px_20230104-f951ae87.pth"
+    },
+    {
+      "Model": "convnext-v2-tiny_fcmae-in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "FCMAE ImageNet-21k",
+      "Params_M": 28.64,
+      "Flops_G": 13.14,
+      "Top1_Percent": 85.09,
+      "Top5_Percent": 97.63,
+      "Config": "convnext-v2-tiny_32xb32_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/convnext-v2/convnext-v2-tiny_fcmae-in21k-pre_3rdparty_in1k-384px_20230104-d8579f84.pth"
+    },
+    {
+      "Model": "convnext-v2-base_fcmae-in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "FCMAE ImageNet-21k",
+      "Params_M": 88.72,
+      "Flops_G": 45.21,
+      "Top1_Percent": 87.63,
+      "Top5_Percent": 98.42,
+      "Config": "convnext-v2-base_32xb32_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/convnext-v2/convnext-v2-base_fcmae-in21k-pre_3rdparty_in1k-384px_20230104-379425cc.pth"
+    },
+    {
+      "Model": "convnext-v2-large_fcmae-in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "FCMAE ImageNet-21k",
+      "Params_M": 197.96,
+      "Flops_G": 101.1,
+      "Top1_Percent": 88.18,
+      "Top5_Percent": 98.52,
+      "Config": "convnext-v2-large_32xb32_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/convnext-v2/convnext-v2-large_fcmae-in21k-pre_3rdparty_in1k-384px_20230104-9139a1f3.pth"
+    },
+    {
+      "Model": "convnext-v2-huge_fcmae-in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "FCMAE ImageNet-21k",
+      "Params_M": 660.29,
+      "Flops_G": 337.96,
+      "Top1_Percent": 88.68,
+      "Top5_Percent": 98.73,
+      "Config": "convnext-v2-huge_32xb32_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/convnext-v2/convnext-v2-huge_fcmae-in21k-pre_3rdparty_in1k-384px_20230104-02a4eb35.pth"
+    },
+    {
+      "Model": "convnext-v2-huge_fcmae-in21k-pre_3rdparty_in1k-512px",
+      "Pretrain": "FCMAE ImageNet-21k",
+      "Params_M": 660.29,
+      "Flops_G": 600.81,
+      "Top1_Percent": 88.86,
+      "Top5_Percent": 98.74,
+      "Config": "convnext-v2-huge_32xb32_in1k-512px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/convnext-v2/convnext-v2-huge_fcmae-in21k-pre_3rdparty_in1k-512px_20230104-ce32e63c.pth"
+    }
+  ],
+  "swin_transformer": [
+    {
+      "Model": "swin-tiny_16xb64_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 28.29,
+      "Flops_G": 4.36,
+      "Top1_Percent": 81.18,
+      "Top5_Percent": 95.61,
+      "Config": "swin-tiny_16xb64_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/swin_tiny_224_b16x64_300e_imagenet_20210616_090925-66df6be6.pth"
+    },
+    {
+      "Model": "swin-small_16xb64_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 49.61,
+      "Flops_G": 8.52,
+      "Top1_Percent": 83.02,
+      "Top5_Percent": 96.29,
+      "Config": "swin-small_16xb64_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/swin_small_224_b16x64_300e_imagenet_20210615_110219-7f9d988b.pth"
+    },
+    {
+      "Model": "swin-base_16xb64_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 87.77,
+      "Flops_G": 15.14,
+      "Top1_Percent": 83.36,
+      "Top5_Percent": 96.44,
+      "Config": "swin-base_16xb64_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/swin_base_224_b16x64_300e_imagenet_20210616_190742-93230b0d.pth"
+    },
+    {
+      "Model": "swin-tiny_3rdparty_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 28.29,
+      "Flops_G": 4.36,
+      "Top1_Percent": 81.18,
+      "Top5_Percent": 95.52,
+      "Config": "swin-tiny_16xb64_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/convert/swin_tiny_patch4_window7_224-160bb0a5.pth"
+    },
+    {
+      "Model": "swin-small_3rdparty_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 49.61,
+      "Flops_G": 8.52,
+      "Top1_Percent": 83.21,
+      "Top5_Percent": 96.25,
+      "Config": "swin-small_16xb64_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/convert/swin_small_patch4_window7_224-cc7a01c9.pth"
+    },
+    {
+      "Model": "swin-base_3rdparty_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 87.77,
+      "Flops_G": 15.14,
+      "Top1_Percent": 83.42,
+      "Top5_Percent": 96.44,
+      "Config": "swin-base_16xb64_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/convert/swin_base_patch4_window7_224-4670dd19.pth"
+    },
+    {
+      "Model": "swin-base_3rdparty_in1k-384",
+      "Pretrain": "From scratch",
+      "Params_M": 87.9,
+      "Flops_G": 44.49,
+      "Top1_Percent": 84.49,
+      "Top5_Percent": 96.95,
+      "Config": "swin-base_16xb64_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/convert/swin_base_patch4_window12_384-02c598a4.pth"
+    },
+    {
+      "Model": "swin-base_in21k-pre-3rdparty_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 87.77,
+      "Flops_G": 15.14,
+      "Top1_Percent": 85.16,
+      "Top5_Percent": 97.5,
+      "Config": "swin-base_16xb64_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/convert/swin_base_patch4_window7_224_22kto1k-f967f799.pth"
+    },
+    {
+      "Model": "swin-base_in21k-pre-3rdparty_in1k-384",
+      "Pretrain": "From scratch",
+      "Params_M": 87.9,
+      "Flops_G": 44.49,
+      "Top1_Percent": 86.44,
+      "Top5_Percent": 98.05,
+      "Config": "swin-base_16xb64_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/convert/swin_base_patch4_window12_384_22kto1k-d59b0d1d.pth"
+    },
+    {
+      "Model": "swin-large_in21k-pre-3rdparty_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 196.53,
+      "Flops_G": 34.04,
+      "Top1_Percent": 86.24,
+      "Top5_Percent": 97.88,
+      "Config": "swin-large_16xb64_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/convert/swin_large_patch4_window7_224_22kto1k-5f0996db.pth"
+    },
+    {
+      "Model": "swin-large_in21k-pre-3rdparty_in1k-384",
+      "Pretrain": "From scratch",
+      "Params_M": 196.74,
+      "Flops_G": 100.04,
+      "Top1_Percent": 87.25,
+      "Top5_Percent": 98.25,
+      "Config": "swin-large_16xb64_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/swin-transformer/convert/swin_large_patch4_window12_384_22kto1k-0a40944b.pth"
+    }
+  ],
+  "vision_transformer": [
+    {
+      "Model": "vit-base-p32_in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "ImageNet-21k",
+      "Params_M": 88.3,
+      "Flops_G": 13.06,
+      "Top1_Percent": 84.01,
+      "Top5_Percent": 97.08,
+      "Config": "vit-base-p32_64xb64_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vit/finetune/vit-base-p32_in21k-pre-3rdparty_ft-64xb64_in1k-384_20210928-9cea8599.pth"
+    },
+    {
+      "Model": "vit-base-p16_32xb128-mae_in1k",
+      "Pretrain": "From scratch",
+      "Params_M": 86.57,
+      "Flops_G": 17.58,
+      "Top1_Percent": 82.37,
+      "Top5_Percent": 96.15,
+      "Config": "vit-base-p16_32xb128-mae_in1k.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vit/vit-base-p16_pt-32xb128-mae_in1k_20220623-4c544545.pth"
+    },
+    {
+      "Model": "vit-base-p16_in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "ImageNet-21k",
+      "Params_M": 86.86,
+      "Flops_G": 55.54,
+      "Top1_Percent": 85.43,
+      "Top5_Percent": 97.77,
+      "Config": "vit-base-p16_64xb64_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vit/finetune/vit-base-p16_in21k-pre-3rdparty_ft-64xb64_in1k-384_20210928-98e8652b.pth"
+    },
+    {
+      "Model": "vit-large-p16_in21k-pre_3rdparty_in1k-384px",
+      "Pretrain": "ImageNet-21k",
+      "Params_M": 304.72,
+      "Flops_G": 191.21,
+      "Top1_Percent": 85.63,
+      "Top5_Percent": 97.63,
+      "Config": "vit-large-p16_64xb64_in1k-384px.py",
+      "Download": "https://download.openmmlab.com/mmclassification/v0/vit/finetune/vit-large-p16_in21k-pre-3rdparty_ft-64xb64_in1k-384_20210928-b20ba619.pth"
+    }
+  ]
+}
