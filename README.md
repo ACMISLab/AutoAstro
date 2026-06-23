@@ -1,13 +1,56 @@
 <h1 align="center"> AutoAstro </h1>
+
 The official repository of **"AutoAstro: Automating Data Analysis inAstronomy Using Large Language Models"**.
+
+## 🆕 News
+- \[**June 2026**\] We have released the first version 1.0 and are very excited to share our research and insights into astronomical macromodeling!
 
 ## Installation requirements
 
-### Note:
-The project is divided into a local client and a server-side component. The server side is used to support model training and return results. The local client is deployed on Windows systems, while the server side is deployed on Linux. The server-side deployment image and related code can be downloaded from the following link:
+The project consists of two components:
+
+* **Local Client**: Deployed on Windows systems.
+* **Server-side Service**: Deployed on Linux systems, responsible for model training and inference result processing.
+
+### Server-side Deployment
+
+The server-side deployment image and related source code and Linux ISO file can be downloaded from the following link:
 
 Baidu Netdisk: https://pan.baidu.com/s/1ItSSFxnCh-yg6OAYkXGFQQ?pwd=apf3  
 Extraction code: apf3
+
+### Local Client (Windows)
+
+The local client source code is available in the following GitHub repository.
+
+Required dependencies can be installed using:
+
+```bash
+pip install -r AutoAstro/requirements.txt
+```
+
+### Data Configuration
+
+The dataset configuration file is located at:
+
+```text
+data/data_core.json
+```
+
+Users should modify this file according to their local data storage configuration.
+
+### Additional Configuration
+
+Before running the project, users also need to configure:
+
+* LLM API credentials and related settings
+* ModelScope storage space configuration
+  (`https://www.modelscope.cn/home`)
+* Temporary file storage paths used within the codebase
+
+Please ensure all required paths and API configurations are correctly set before deployment.
+
+
 
 ## 📌 Evaluation Dataset
 Benchmark Test Dataset: The NL2Astro dataset constructed in this work is available at the following URL: https://doi.org/10.5281/zenodo.20799181.
